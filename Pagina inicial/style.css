@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo para o menu */
+ul {
+    list-style-type: none;
+    padding: 0px;
+    background-color: #333; /* Cor de fundo do menu */
+    text-align: right; /* Alinhar o texto ao centro */
+    border-radius: 10px 10px;
+}
+
+li {
+    display: inline;
+    margin-right: 20px;
+}
+
+li a {
+    text-decoration: none;
+    color: white; /* Cor do texto do menu */
+    font-weight: bold;
+}
+
+li a:hover {
+    text-decoration: none; /* Efeito de sublinhado ao passar o mouse */
+}
+
+/* Estilo para as seções */
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f0f0f0; /* Cor de fundo das seções */
+    border: 1px solid #ccc; /* Borda das seções */
+}
+
+h2 {
+    color: #333; /* Cor do título das seções */
+}
