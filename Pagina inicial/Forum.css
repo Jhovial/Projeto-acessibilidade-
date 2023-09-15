@@ -56,3 +56,10 @@ a:hover {
     color: #0056b3;
 }
 
+#resposta{
+    width: 200px;
+    height: 50px;
+    background-color: #fff;
+    color: black;
+
+}

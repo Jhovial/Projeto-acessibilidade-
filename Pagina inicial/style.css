@@ -9,15 +9,14 @@ body
     background-color: #000;
 }
 
-/* Estilo para o menu */
 ul {
     list-style-type: none;
     padding: 0;
-    background-color: #FFD700; /* Amarelo para a barra */
+    background-color: #FFD700; 
     height: 28px;
-    text-align: right; /* Alinhar o texto ao centro */
-    margin: 0; /* Remover margem padrão */
-    overflow: hidden; /* Evitar que conteúdo flutue por baixo */
+    text-align: right; 
+    margin: 0; 
+    overflow: hidden; 
     color: black;
 
 }
@@ -30,26 +29,27 @@ li {
 
 li a {
     text-decoration: none;
-    color: black; /* Letras em branco */
+    color: black; 
     font-weight: bold;
-    transition: color 0.3s ease; /* Transição suave da cor do texto */ 
+    transition: color 0.3s ease;  
 }
 
 li a:hover {
     color: #FFA500; /* Cor laranja ao passar o mouse */
+   
 }
 
-/* Estilo para as seções */
 section {
     margin: 20px;
     padding: 20px;
-    background-color: beige; /* Preto para o fundo das seções */
-    border: 1px solid #333; /* Borda das seções */
-    color: black; /* Cor do texto das seções */
-    border-radius: 5px; /* Cantos arredondados */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Sombra */
+    background-color: beige; 
+    border: 1px solid #333; 
+    color: black; 
+    border-radius: 5px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
 }
 
 h2 {
-    color: orange; /* Amarelo para o título das seções */
+    color: orange; 
 }
+
