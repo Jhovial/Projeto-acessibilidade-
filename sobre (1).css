@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    padding: 0;
+    background-color: #393535;
+  
+}
+
+header {
+    background-color: #003366;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+    float: center;
+    
+}
+
+h1 {
+    font-size: 36px;
+    margin: 10px 0;
+    
+}
+
+section {
+    padding: 30px;
+}
+
+h2 {
+    font-size: 24px;
+    color: #0381ff;
+     display: inline-block;
+}
+
+ul {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+a {
+    color: #003366;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+address {
+    color: white;
+    margin-top: 10px;
+    font-style: normal;
+}
+
+footer {
+    background-color: #dddd6a;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+
+}
+
+p {
+    color: white;
+    display: inline-block;
+}
+.figure {
+    padding-left: 10%;
+}
+.figure img {
+    width: 200px;
+  
+}
+
+.texto-pau {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #fff;
+
+}
+.texto-pau img{
+    padding-right: 15px
+}
+
+ul{
+    color: white;
+    padding-top: 10px;
+}
+
+.contato{
+    padding: 10px;
+    background-color: #0381ff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.contato h2{
+    background-color: #fff;
+    padding: 10px;
+
+}

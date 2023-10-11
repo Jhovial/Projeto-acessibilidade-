@@ -1,3 +1,251 @@
-body {
-    font-family: Arial, Helvetica, sans-serif;
+/* Reset de estilos básicos */
+
+* {
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
 }
+
+ 
+
+/* Estilos gerais */
+
+body {
+
+    font-family: Arial, sans-serif;
+
+    background-color: #f0f0f0; /* Cinza claro */
+
+    margin: 0;
+
+    padding: 0;
+
+    background-image: url('decorative-pattern.png'); /* Adicione uma imagem de fundo decorativa */
+
+    background-repeat: repeat; /* Repetir a imagem */
+
+    background-attachment: fixed; /* Fixar a imagem de fundo */
+
+    color: #333; /* Cor do texto principal */
+
+}
+
+ 
+
+/* Estilos para o cabeçalho */
+
+header {
+
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.9) 0%, rgba(128, 128, 128, 0.9) 50%, rgba(251, 177, 68, 0.9) 100%); /* Gradiente de cores de preto a cinza e amarelo */
+
+    color: #fff;
+
+    padding: 15px 20px; /* Reduzir o espaçamento vertical */
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    border-radius: 0 0 10px 10px; /* Arredonda apenas a parte inferior */
+
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+
+}
+
+ 
+
+.logo {
+
+    font-size: 28px; /* Tamanho da fonte aumentado */
+
+    font-weight: bold;
+
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Sombra no texto */
+
+}
+
+ 
+
+nav ul {
+
+    list-style: none;
+
+}
+
+ 
+
+nav ul li {
+
+    display: inline;
+
+    margin-right: 10px; /* Reduzir o espaçamento entre os itens */
+
+}
+
+ 
+
+nav ul li a {
+
+    text-decoration: none;
+
+    color: rgba(255, 255, 255, 0.9); /* Texto com transparência */
+
+    font-weight: bold;
+
+    transition: color 0.3s ease;
+
+}
+
+ 
+
+nav ul li a:hover {
+
+    color: rgba(255, 255, 255, 1); /* Texto totalmente opaco no hover */
+
+}
+
+ 
+
+/* Estilos para o conteúdo principal */
+
+main {
+
+    max-width: 800px;
+
+    margin: 20px auto;
+
+    padding: 20px;
+
+    background-color: rgba(255, 255, 255, 0.9); /* Fundo branco com transparência */
+
+    border-radius: 8px;
+
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+
+}
+
+ 
+
+/* Estilos para as postagens no fórum */
+
+.forum-post {
+
+    margin-bottom: 20px;
+
+    border: 1px solid #ddd;
+
+    border-radius: 8px;
+
+    overflow: hidden; /* Evita que as sombras se estendam além do elemento */
+
+}
+
+ 
+
+h2 {
+
+    font-size: 24px;
+
+    margin-bottom: 10px;
+
+    color: #000; /* Vermelho claro */
+
+}
+
+ 
+
+.comments .comment {
+
+    background-color: #f8f8f8; /* Cinza mais claro */
+
+    border: 1px solid #ddd;
+
+    padding: 10px;
+
+    margin: 10px 0;
+
+    border-radius: 4px;
+
+}
+
+ 
+
+.add-comment textarea,
+
+.add-comment button {
+
+    width: 100%;
+
+    padding: 10px;
+
+    margin-top: 10px;
+
+    border: 1px solid #ddd;
+
+    border-radius: 4px;
+
+}
+
+ 
+
+.add-comment button {
+
+    background-color: rgba(251, 177, 68, 0.9); /* Amarelo com transparência */
+
+    color: #fff;
+
+    border: none;
+
+    padding: 10px 20px;
+
+    cursor: pointer;
+
+    margin-top: 10px;
+
+    border-radius: 4px;
+
+    transition: background-color 0.3s ease;
+
+}
+
+ 
+
+.add-comment button:hover {
+
+    background-color: #ff8f69; /* Amarelo mais escuro */
+
+}
+
+ 
+
+/* Estilos para o rodapé */
+
+footer {
+
+    text-align: center;
+
+    background-color: rgba(128, 128, 128, 0.9); /* Cinza com transparência */
+
+    color: #fff;
+
+    padding: 20px 0; /* Mais espaço no rodapé */
+
+    border-radius: 0 0 10px 10px; /* Arredonda apenas a parte inferior */
+
+    position: absolute;
+
+    bottom: 0;
+
+    left: 0;
+
+    right: 0;
+
+}
+
+ 
