@@ -1,50 +1,48 @@
-/* Reset de estilos básicos */
 
 * {
 
     margin: 0;
-
     padding: 0;
-
     box-sizing: border-box;
 
 }
 
  
 
-/* Estilos gerais */
 
 body {
 
     font-family: Arial, sans-serif;
 
-    background-color: #f0f0f0; /* Cinza claro */
+    background-color: #f0f0f0;
 
     margin: 0;
 
     padding: 0;
 
-    background-image: url('decorative-pattern.png'); /* Adicione uma imagem de fundo decorativa */
+    background-image: url('decorative-pattern.png'); 
 
-    background-repeat: repeat; /* Repetir a imagem */
+    background-repeat: repeat; 
 
-    background-attachment: fixed; /* Fixar a imagem de fundo */
+    background-attachment: fixed; 
 
-    color: #333; /* Cor do texto principal */
+    color: #333; 
 
+    min-height: 100vh;
+    position: relative;
 }
 
  
 
-/* Estilos para o cabeçalho */
+
 
 header {
 
-    background: linear-gradient(135deg, rgba(0, 0, 0, 0.9) 0%, rgba(128, 128, 128, 0.9) 50%, rgba(251, 177, 68, 0.9) 100%); /* Gradiente de cores de preto a cinza e amarelo */
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.9) 0%, rgba(128, 128, 128, 0.9) 50%, rgba(251, 177, 68, 0.9) 100%); 
 
     color: #fff;
 
-    padding: 15px 20px; /* Reduzir o espaçamento vertical */
+    padding: 15px 20px; 
 
     display: flex;
 
@@ -52,29 +50,41 @@ header {
 
     align-items: center;
 
-    border-radius: 0 0 10px 10px; /* Arredonda apenas a parte inferior */
+    border-radius: 0 0 10px 10px; 
 
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+
+    float: center;
+    
+    text-align: center;
+    
+    padding: 20px;
 
 }
 
  
 
-.logo {
+.meio {
 
-    font-size: 28px; /* Tamanho da fonte aumentado */
+    font-size: 28px; 
+    color: white;
+    text-decoration: none;
 
     font-weight: bold;
 
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Sombra no texto */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); 
+    margin-top: auto;
 
 }
-
+.meio:hover{
+    text-decoration: underline;
+}
  
 
 nav ul {
 
     list-style: none;
+    
 
 }
 
@@ -84,7 +94,7 @@ nav ul li {
 
     display: inline;
 
-    margin-right: 10px; /* Reduzir o espaçamento entre os itens */
+    margin-right: 10px; 
 
 }
 
@@ -94,7 +104,7 @@ nav ul li a {
 
     text-decoration: none;
 
-    color: rgba(255, 255, 255, 0.9); /* Texto com transparência */
+    color: rgba(255, 255, 255, 0.9); 
 
     font-weight: bold;
 
@@ -106,13 +116,12 @@ nav ul li a {
 
 nav ul li a:hover {
 
-    color: rgba(255, 255, 255, 1); /* Texto totalmente opaco no hover */
-
+    color: rgba(255, 255, 255, 1); 
 }
 
  
 
-/* Estilos para o conteúdo principal */
+
 
 main {
 
@@ -122,17 +131,17 @@ main {
 
     padding: 20px;
 
-    background-color: rgba(255, 255, 255, 0.9); /* Fundo branco com transparência */
+    background-color: rgba(255, 255, 255, 0.9); 
 
     border-radius: 8px;
 
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
 
 }
 
  
 
-/* Estilos para as postagens no fórum */
+
 
 .forum-post {
 
@@ -142,7 +151,7 @@ main {
 
     border-radius: 8px;
 
-    overflow: hidden; /* Evita que as sombras se estendam além do elemento */
+    overflow: hidden;
 
 }
 
@@ -154,7 +163,7 @@ h2 {
 
     margin-bottom: 10px;
 
-    color: #000; /* Vermelho claro */
+    color: #000; 
 
 }
 
@@ -162,7 +171,7 @@ h2 {
 
 .comments .comment {
 
-    background-color: #f8f8f8; /* Cinza mais claro */
+    background-color: #f8f8f8; 
 
     border: 1px solid #ddd;
 
@@ -196,7 +205,7 @@ h2 {
 
 .add-comment button {
 
-    background-color: rgba(251, 177, 68, 0.9); /* Amarelo com transparência */
+    background-color: rgba(251, 177, 68, 0.9); 
 
     color: #fff;
 
@@ -218,25 +227,25 @@ h2 {
 
 .add-comment button:hover {
 
-    background-color: #ff8f69; /* Amarelo mais escuro */
+    background-color: #ff8f69; 
 
 }
 
  
 
-/* Estilos para o rodapé */
+
 
 footer {
 
     text-align: center;
 
-    background-color: rgba(128, 128, 128, 0.9); /* Cinza com transparência */
+    background-color: (128, 128, 128, 0.9); 
 
     color: #fff;
 
-    padding: 20px 0; /* Mais espaço no rodapé */
+    padding: 20px 0; 
 
-    border-radius: 0 0 10px 10px; /* Arredonda apenas a parte inferior */
+    border-radius: 0 0 10px 10px; 
 
     position: absolute;
 
@@ -248,4 +257,35 @@ footer {
 
 }
 
- 
+.addimagem {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+#inputFile {
+    display: none; 
+}
+
+#imagePreview {
+    max-width: 300px;
+    margin-top: 20px;
+}
+
+#inputFile:checked + .custom-button {
+    background-color: #e74c3c;
+}
+
+#inputFile:checked + .custom-button + #imagePreview {
+    display: block;
+}
+
+#inputFile:not(:checked) + .custom-button + #imagePreview {
+    display: none;
+}
+
+

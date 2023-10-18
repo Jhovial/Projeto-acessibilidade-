@@ -19,7 +19,7 @@ function addComment() {
         commentsContainer.appendChild(commentDiv);
 
  
-
+        return commentText
  
 
         document.getElementById('comment-input').value = '';
@@ -27,8 +27,6 @@ function addComment() {
     }
 
 }
-
- 
 
  
 
