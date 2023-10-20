@@ -4,15 +4,20 @@
     box-sizing: border-box;
 }
 
+header {
+    text-align: left;
+}
+
 body
 {
-    background-color: #000;
+    background-color: #4d4d4d;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 nav {
     padding: 15px;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #FFD700; 
+    background-color: #6d6d6d; 
 }
 
 ul {
@@ -39,7 +44,7 @@ li {
 li a {
     font-size: 20px;
     text-decoration: none;
-    color: black; 
+    color: rgb(255, 255, 255); 
     font-weight: bold;
     transition: color 0.3s ease;  
 }
@@ -63,3 +68,62 @@ h2 {
     color: orange; 
 }
 
+.ACShools
+{
+    float: left;
+    text-align: left;
+}
+
+.menu
+{
+    float: right;
+    box-sizing: border-box;
+    padding-left: 1300px;
+    color: white;
+}
+
+.logo
+{
+    float: left;
+    background-color: 6d6d6d;
+    box-sizing: border-box;
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 10px;
+    color: white;
+}
+
+.opcoes
+{
+    margin-top: 70px;
+    position: absolute;
+    width: 1600px;
+    
+}
+
+main h1{
+    color:white;
+    text-align: center;
+
+}
+
+.texto {
+    margin-top: 35px;
+    color: white;
+    text-align: justify;
+    margin-left: 55vw;
+    margin-right: 25px;
+}
+
+.texto2 {
+    margin-top: 35px;
+    color: white;
+    text-align: justify;
+    margin-right: 55vw;
+    margin-left: 25px;
+}
+
+img {
+    height: 43px;
+    width: 43px;
+}
